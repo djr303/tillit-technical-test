@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+  height: 100%;
+}
+
+div.checklist {
+  background: #364f6b; /* Our fictitious brand's primary colour */
+  color: #fce38a; /* Our fictitious brand's secondary colour */
+  padding: 32px;
+}
+
+div.checklist h1 {
+  font-size: 48px;
+}
+
+div.checklist h2 {
+  font-size: 32px;
+}
+
+div.checklist div.checked {
+  text-decoration: line-through;
+}
+
+div.checklist > div.checked > span {
+  color: grey;
+}
+
+div.checklist > .buttons > button {
+  color: black;
+  font-weight: bold;
+  background: #fc5185;
+  width: 5em;
+  padding: 8px;
+}
+
+div.checklist .buttons > input {
+  padding: 8px;
+  margin-right: 1em;
+}
+
+div.checklist .buttons {
+  margin-top: 16px;
+}
